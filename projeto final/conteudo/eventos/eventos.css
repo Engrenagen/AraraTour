@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 0;
+    color:  #333;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho{
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_pagina{
+    margin: 10px 10px 10px 30px;
+    font-size: 28px;
+}
+
+.titulo_icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+.icon{
+    width: 100%;
+    height: 30px;
+}
+
+.usuario{
+    width: 30px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.lista_menu{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.cabecalho_link{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cabecalho_link:hover {
+    color: #FF7F50;
+}
+
+.content{
+    width: 100%;
+    margin: 5% 5% 5% 0;
+    border: #333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 10px 10px 10px;
+}
+
+.content_titulo{
+    padding: 10px;
+    background-color: #FF7F50;
+    border-end-end-radius: 10px ;
+    border-top-right-radius: 10px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 10px 10px 0;
+}
+
+.topico_noticias{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 70px 0;
+    flex-wrap: wrap;
+}
+
+.bloco_noticia{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 1em 5px;
+}
+
+.bloco_link{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+}
+
+.p2 {
+    font-size: 12px;
+    color: #818181;
+    padding: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share{
+    color: #4A90E2;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    width: 50%;
+}
+
+.share:hover{
+    color: #F4F4F4;
+    background-color: #4A90E2;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+}
+
+.info{
+    color: #333;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    text-decoration: none;
+}
+
+.info:hover {
+    color: #F4F4F4;
+    background-color: #FF7F50;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+}
+
+
+.imagem_noticia{
+    width: 290px;
+    height: 150px;
+    padding: 10px 10px 0 0;
+    border-radius: 0 15px 0 0;
+    
+}
+
+.aside_link{
+    text-decoration: none;
+    color: #F4F4F4;
+    padding: 0.5em 0 1em 1em;
+    border: #333;
+}
+
+.aside_link:hover{
+    color: #FF7F50;
+}
+
+.aside_titulo{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #FF7F50;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.aside_lista{
+    list-style: none;
+    background-color: #4A90E2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1em 0 1em 1em;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem_link{
+    width: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.pagina{
+    display: flex;
+    padding: 0 5% 0 5%;
+}
+
+.aside{
+    width: 30%;
+    padding-top: 5%;
+    margin: 0 0 0 5%;
+}
+
+.dropbtn {
+    background-color: #4A90E2;
+    color: #3165a0;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3165a0;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: #3165a0;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover{color: #F4F4F4;}
+  
+  .dropdown-content a:hover {background-color: #4A90E2;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3165a0; border-radius:  10px 10px 0 0;}

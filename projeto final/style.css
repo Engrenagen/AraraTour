@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.titulo_pagina{
+    margin: 10px 10px 10px 30px;
+    font-size: 28px;
+}
+
+.titulo_icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+.icon{
+    width: 100%;
+    height: 30px;
+}
+
+.usuario{
+    width: 30px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #fd8700;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 50px 30px 50px;
+}
+
+.content_link {
+    text-decoration: none;
+    color: #333;
+}
+
+article {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+article:hover {
+    background-color: #FF7F50;
+}
+
+article h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #4A90E2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__imagem {
+    width: 100%;
+    position: relative;
+    display: block;
+    justify-content: center;
+    background-color: #FF7F50;
+}
+
+.container__titulo {
+    margin: 0;
+    font-size: 65px;
+    color: #fd8700;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.imagem_background {
+    width: 100%;
+}
+
+.textos {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: center;
+    padding: 10px;
+}
+
+.texto {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    background-color: #FF7F50;
+    padding: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_titulo {
+    font-size: 30px;
+    padding-top: 2em;
+}
+
+.info_texto {
+    font-size: 15px;
+    padding: 1em 4em 5em 4em;
+    word-break: break-word;
+}
+
+.titulo_contato {
+    margin: 0 0 20px 0;
+}
+
+.email {
+    margin: 10px 0 30px 0;
+    padding: auto;
+}
+
+.container_noticias {
+    margin: 40px;
+}
+
+.eventos {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.noticias {
+    background-color: white;
+    width: 300px;
+    text-align: start;
+}
+
+.eventos_link {
+    text-decoration: none;
+    color: #333;
+}
+
+.imagem_not {
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}
+
+.noticia_titulo {
+    padding: 0.5em 0 1em 0;
+}
+
+.imagem_link {
+    width: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.dropbtn {
+    background-color: #4A90E2;
+    color: #3165a0;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3165a0;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: #3165a0;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover{color: #F4F4F4;}
+  
+  .dropdown-content a:hover {background-color: #4A90E2;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3165a0; border-radius:  10px 10px 0 0;}

@@ -1,0 +1,55 @@
+{
+    "local": [
+        {
+            "title": "Parque do Basalto",
+            "desc": "Área natural na cidade, com vegetação nativa e trilhas, além de playground, laguinhos e queda-d'água.",
+            "url": "https://maps.app.goo.gl/5VWbjzFukC2N4XfM9",
+            "location": "Av. São João, s/n - Jardim Pinheiros (Vila Xavier), Araraquara - SP, 14811-390",
+            "hours": "Aberto de terça-feira a domingo: 08:00-18:00"
+
+        },
+        {
+            "title": "SESC Araraquara",
+            "desc": "Centro cultural e desportivo que oferece ações em artes, educação permanente, esportes, turismo social, saúde, cidadania e alimentação.",
+            "url": "https://maps.app.goo.gl/5v4icmv6wPTWy6wq6",
+            "location": "R. Castro Alves, 1315 - Quitandinha, Araraquara - SP, 14800-140",
+            "hours": "Aberto de terça a sexta-feira: 13:00-21:30 / sábado, domingo e feriados: 09:30-18:00"
+        },
+        {
+            "title": "MAPA",
+            "desc": "O acervo do Museu de Arqueologia e Paleontologia de Araraquara é voltado para a coleção de icnofósseis (pegadas de dinossauros e mamíferos e traços de invertebrados) presentes em lajes de arenito eólico provenientes da Formação Botucatu.",
+            "url": "https://maps.app.goo.gl/CuRp9Y4R8xsXdwiEA",
+            "location": "R. Voluntários da Pátria, 1485 - Centro, Araraquara - SP, 14801-320",
+            "hours": "Aberto de segunda a sexta-feira: 09:00-16:30"
+        },
+        {
+            "title": "Arena Fonte Luminosa",
+            "desc": " É o estádio onde a Associação Ferroviária de Esportes manda seus jogos. Até o ano de 2023 o estádio levava o nome do ex-governador do estado Doutor Adhemar de Barros.",
+            "url": "https://maps.app.goo.gl/DwS3fiMjtCpLGL888",
+            "location": "R. Mauro Pinheiro, s/n - Jardim Primavera, Araraquara - SP, 14802-355",
+            "hours": "-"
+        },
+        {
+            "title": "Shopping Jaraguá",
+            "desc": "Shopping contemporâneo com uma variedade de lojas, um cinema e uma ampla praça de alimentação.",
+            "url": "https://maps.app.goo.gl/7rKobWSio4VTK54p9",
+            "location": "Av. Alberto Benassi, 2270 - Jardim dos Manacas, Araraquara - SP, 14801-600",
+            "hours": "Aberto de segunda-feira a sábado: 10:00-22:00 / domingo: 11:00-22:00"
+        },
+        {
+            "title": "Parque Pinheirnho",
+            "desc": "Área recreativa verde, com percursos de exercício, recantos de descanso e piscina pública, além de kartódromo.",
+            "url": "https://maps.app.goo.gl/PXrTYAjyT2wbv3US6",
+            "location": "Av. Francisco Vaz Filho, s/n - Jardim Pinheiros (Vila Xavier), Araraquara - SP, 14811-418",
+            "hours": "Aberto todos os dias: 07:00-18:00"
+        },
+        {
+            "title": "Teatro Municipal",
+            "desc": "Teatro em prédio de concreto e vidro, próprio para as artes cênicas com plateia alta de 360 poltronas e hall.",
+            "url": "https://maps.app.goo.gl/hMkruR4uB6Cw46WU8",
+            "location": "Av. Bento de Abreu - Centro, Araraquara - SP, 14802-428",
+            "hours": "-"
+        }
+        
+    ]
+}

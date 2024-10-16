@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+
+<body>
+    <header>
+            <a class="titulo_icon" href="/projeto final/pagina_home.html">
+                <h1 class="titulo_pagina">AraraTour</h1>
+                <img class="icon" src="/projeto final/imagens/location-pin.png" alt="">
+            </a>
+        <nav>
+            <ul>
+                <li><a class="cabecalho_link" href="/projeto final/pagina_home.html">Home</a></li>
+                <li><a class="cabecalho_link" href="/projeto final/conteudo/eventos/eventos.html">Eventos</a></li>
+                <li><a class="cabecalho_link" href="/projeto final/conteudo/colunistas/colunistas.html">Colunistas</a></li>
+                <li><a class="cabecalho_link" href="/projeto final/conteudo/noticias/noticias.html">Noticias</a></li>
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn"><img class="usuario" src="/projeto final/imagens/user_9351993.png" alt=""></button>
+                <div class="dropdown">
+                    <div class="dropdown-content">
+                    <a href="/projeto final/perfil.html">Perfil</a>
+                    <a href="#">Login</a>
+                    <a href="#">Sair</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="box_perfil">
+            <h1 class="perfil_titulo">Perfil de usuario</h1>
+            <input type="image" class="imagem_user" src="/projeto final/imagens/user_9351993.png" alt="">
+            <h3 class="nome">Joker Coringa da Silva</h3>
+            <br>
+            <strong>(55) 10 010101010 </strong>
+            <br>
+            <strong>generico@email.com</strong>
+            <br>
+            <p>Meu nome é Yoshikage Kira. Tenho 33 anos. Minha casa fica na parte nordeste de Morioh, onde todas as casas estão, e eu não sou casado. Eu trabalho como funcionário das lojas de departamentos Kame Yu e chego em casa todos os dias às oito da noite, no máximo.</p>
+        </div>
+        <div class="box_info">
+            <div class="not">
+                <p class="not_texto">Atualize suas informações de ususario.</p>
+            </div>
+            <h2 class="info_titulo">Dados do perfil</h2>
+            <div class="informacoes">
+                <div class="info_item">
+                    Nome 
+                    <input type="text" placeholder="Nome...">
+                </div>
+                <div class="info_item">
+                    Nome de usuario
+                    <input type="text" placeholder="Usuario...">
+                </div>
+                <div class="info_item">
+                    Senha
+                    <input type="password" placeholder="Senha...">
+                </div>
+                <div class="info_item">
+                    Numero
+                    <input type="text" placeholder="Numero...">
+                </div>
+                <div class="info_item">
+                    E-mail
+                    <input type="email" placeholder="E-mail...">
+                </div>
+                <div class="info_item">
+                    Data de nascimento
+                    <input type="date">
+                </div>
+                <div class="info_item">
+                    Genero
+                    <div class="genero_div">
+                        <input type="radio" name="Genero" value="Masculino">
+                        <label for="Masculino">Masculino</label><br>
+                    </div>
+                    <div class="genero_div">
+                        <input type="radio" name="Genero" value="Feminino">
+                        <label for="Feminino">Feminino</label><br>
+                    </div>
+                    <div class="genero_div">
+                        <input type="radio" name="Genero" value="Outro">
+                        <label for="Outro">Outro</label><br>
+                    </div>
+                </div>
+                <div class="info_item">
+                    Sobre
+                    <textarea class="sobre" placeholder="Digite sua mensagem..." maxlength="150"></textarea>
+                </div>
+            </div>
+            <div class="botao">
+                <button class="save"><strong>Salvar</strong></button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer_links">
+            <div>
+                <h1 class="titulo_contato">Contato</h1>
+                <p>55 99999999</p>
+                <p class="email">generico@email.com</p>
+            </div>
+            <div>
+                <h1 class="titulo_contato">Redes Sociais</h1>
+                <a href="#">
+                    <img src="imagens/insta.png" class="imagem_link">
+                    <img src="imagens/facebook (1).png" class="imagem_link">
+                    <img src="imagens/youtube.png" class="imagem_link">
+                </a>
+            </div>
+        </div>
+        <p>&copy; 2024 AraraTour. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

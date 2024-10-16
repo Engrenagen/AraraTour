@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.titulo_icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+.icon{
+    width: 100%;
+    height: 30px;
+}
+
+.titulo_pagina{
+    margin: 10px 10px 10px 30px;
+    font-size: 28px;
+}
+
+.usuario{
+    width: 30px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #FF7F50;
+}
+
+div {
+    height: 80%;
+}
+
+.hero {
+    background-color: #FF7F50;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0 0 20px;
+    font-size: 36px;
+}
+
+.hero p {
+    margin: 0 0 20px;
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: white;
+    color: #FF7F50;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #4A90E2;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+
+article {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+article:hover {
+    background-color: #FF7F50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+article h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #4A90E2;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem_link{
+    width: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.titulo_contato{
+    margin: 0 0 20px 0;
+}
+
+.contato{
+    margin: 0;
+    padding: 10px 0 0 0 ;
+}
+
+.email{
+    margin: 10px 0 30px 0;
+}
+
+.direitos {
+    margin: 0;
+}
+
+.dropbtn {
+    background-color: #4A90E2;
+    color: #3165a0;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3165a0;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: #3165a0;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover{color: #F4F4F4;}
+  
+  .dropdown-content a:hover {background-color: #4A90E2;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3165a0; border-radius:  10px 10px 0 0;}

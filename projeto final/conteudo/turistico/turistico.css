@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+}
+ 
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 0 2% 0 5%;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho{
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_pagina{
+    margin: 10px 10px 10px 30px;
+    font-size: 28px;
+}
+
+.titulo_icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+.icon{
+    width: 100%;
+    height: 30px;
+}
+
+.usuario{
+    width: 30px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.lista_menu{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.cabecalho_link{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cabecalho_link:hover {
+    color: #FF7F50;
+}
+
+.content{
+    width: 95%;
+    margin: 5% 5% 5% 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 10px 10px 0;
+}
+
+.content_titulo{
+    padding: 2% 0 2% 0.5em;
+    background-color: #FF7F50;
+    margin-bottom: 0.5em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 10px 10px 0;
+}
+
+.nome_ponto{
+    padding: 10px 0 10px 10px;
+    margin-top: 2em;
+}
+
+.container_imagens{
+    display: flex;
+}
+
+.imagem_ponto{
+    width: 47%;
+    margin: 10px;
+}
+
+.botao{
+    background-color:#FF7F50;
+    border: #FF7F50;
+    padding: 10px;
+    margin: 0 0 10px 10px;
+    border-radius: 10px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+    text-indent: 0.5em;
+}
+
+.container_modal{
+    margin: 30px 10px 10px 10px;
+    width: 25%;
+    background-color: #4A90E2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo_modal{
+    background-color: #FF7F50;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.aside{
+    width: 50%;
+    margin-top: 8vh;
+}
+
+.aside_link{
+    text-decoration: none;
+    color: #F4F4F4;
+    padding: 0.5em 0 1em 1em;
+    border: #333;
+}
+
+.aside_link:hover{
+    color: #FF7F50;
+}
+
+.aside_titulo{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #FF7F50;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aside_lista{
+    list-style: none;
+    background-color: #4A90E2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1em 0 1em 1em;   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem_link{
+    width: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.pagina{
+    display: flex;
+    padding: 0 5% 0 5%;
+    align-items: flex-start;
+}
+
+.dropbtn {
+    background-color: #4A90E2;
+    color: #3165a0;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3165a0;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: #3165a0;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover{color: #F4F4F4;}
+  
+  .dropdown-content a:hover {background-color: #4A90E2;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3165a0; border-radius:  10px 10px 0 0;}
